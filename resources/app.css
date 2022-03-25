@@ -1,0 +1,126 @@
+html, body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+}
+.banner{
+    background: url(./house.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.product-banner{
+    background: url(./about.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.about-banner{
+    background: url(./product.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+.nav ul li{
+    display: inline;
+    padding-right: 1rem;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+.float-right{
+    float: right;
+}
+.banner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 0px 3px rgba(149, 150, 150, 1);
+}
+
+.about-banner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 0px 3px rgba(149, 150, 150, 1);
+}
+
+.product-banner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 0px 3px rgba(149, 150, 150, 1);
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+}
+
+.about-text{
+    padding: 4rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+.card{
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.link-center{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    transition: transform .2s;
+}
+img:hover {
+    transform: scale(1.1); 
+  }
