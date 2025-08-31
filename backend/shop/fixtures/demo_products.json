@@ -1,0 +1,34 @@
+[
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {"name": "Shirts"}
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {"name": "Pants"}
+  },
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Classic White Tee",
+      "description": "Cotton t-shirt with slim fit",
+      "price": "19.99",
+      "image_url": "https://via.placeholder.com/300x400.png?text=White+Tee"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "Blue Denim Jeans",
+      "description": "Stylish blue jeans",
+      "price": "49.99",
+      "image_url": "https://via.placeholder.com/300x400.png?text=Denim+Jeans"
+    }
+  }
+]
